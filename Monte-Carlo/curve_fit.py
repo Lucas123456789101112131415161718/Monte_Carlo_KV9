@@ -29,10 +29,10 @@ V0_opt1, k_opt1 = popt1
 V0_opt2, k_opt2 = popt2
 V0_opt3, k_opt3 = popt3
 V0_opt4, k_opt4 = popt4
-print(f'Optimale Parameter C1: V0={V0_opt1:.4f}, k={k_opt1:.4f}')
-print(f'Optimale Parameter C2: V0={V0_opt2:.4f}, k={k_opt2:.4f}')
-print(f'Optimale Parameter C3: V0={V0_opt3:.4f}, k={k_opt3:.4f}')
-print(f'Optimale Parameter C4704.: V0={V0_opt4:.4f}, k={k_opt4:.4f}')
+print(f'Optimal Parameter C1: V0={V0_opt1:.4f}, k={k_opt1:.4f}')
+print(f'Optimal Parameter C2: V0={V0_opt2:.4f}, k={k_opt2:.4f}')
+print(f'Optimal Parameter C3: V0={V0_opt3:.4f}, k={k_opt3:.4f}')
+print(f'Optimal Parameter C4.: V0={V0_opt4:.4f}, k={k_opt4:.4f}')
 
 perr1 = np.sqrt(np.diag(pcov1))
 perr2 = np.sqrt(np.diag(pcov2))
