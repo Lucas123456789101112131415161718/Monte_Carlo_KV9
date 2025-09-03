@@ -38,10 +38,10 @@ perr1 = np.sqrt(np.diag(pcov1))
 perr2 = np.sqrt(np.diag(pcov2))
 perr3 = np.sqrt(np.diag(pcov3))
 perr4 = np.sqrt(np.diag(pcov4))
-print(f'Standardabweichungen der Parameter C1: V0_err={perr1[0]:.4f}, k_err={perr1[1]:.4f}')
-print(f'Standardabweichungen der Parameter C2: V0_err={perr2[0]:.4f}, k_err={perr2[1]:.4f}')
-print(f'Standardabweichungen der Parameter C3: V0_err={perr3[0]:.4f}, k_err={perr3[1]:.4f}')
-print(f'Standardabweichungen der Parameter C4: V0_err={perr4[0]:.4f}, k_err={perr4[1]:.4f}')
+print(f'standart deviation of parameter C1: V0_err={perr1[0]:.4f}, k_err={perr1[1]:.4f}')
+print(f'standart deviation of parameter C2: V0_err={perr2[0]:.4f}, k_err={perr2[1]:.4f}')
+print(f'standart deviation of parameter C3: V0_err={perr3[0]:.4f}, k_err={perr3[1]:.4f}')
+print(f'standart deviation of parameter C4: V0_err={perr4[0]:.4f}, k_err={perr4[1]:.4f}')
 
 
 
